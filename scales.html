@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Scales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Nominal Scale -->
+        <div class="scale-section" id="nominal-section">
+            <h2>Nominal Scale</h2>
+            <p>A nominal scale is a scale of measurement used to label variables without providing any order or hierarchy. Common examples include gender, hair color, or types of fruits.</p>
+            <div class="button-container">
+                <button class="fruit-button">Apple</button>
+                <button class="fruit-button">Banana</button>
+                <button class="fruit-button">Cherry</button>
+            </div>
+            <p id="nominal-message"></p>
+        </div>
+
+        <!-- Ordinal Scale -->
+        <div class="scale-section" id="ordinal-section">
+            <h2>Ordinal Scale</h2>
+            <p>An ordinal scale is a scale of measurement that allows for rank order of items but doesn't have a consistent difference between values. Examples include ranking of movies from most to least favorite.</p>
+            <ul class="movie-list" id="movie-list">
+                <li data-movie="Inception">Inception</li>
+                <li data-movie="The Matrix">The Matrix</li>
+                <li data-movie="Avatar">Avatar</li>
+            </ul>
+            <p id="ordinal-message"></p>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
